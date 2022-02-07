@@ -1,0 +1,20 @@
+
+{
+  "variants": {
+    "facing=north": {
+      "model": "create_expansion:block/mechanical_table"
+    },
+    "facing=east": {
+      "model": "create_expansion:block/mechanical_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "create_expansion:block/mechanical_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_expansion:block/mechanical_table",
+      "y": 270
+    }
+  }
+}

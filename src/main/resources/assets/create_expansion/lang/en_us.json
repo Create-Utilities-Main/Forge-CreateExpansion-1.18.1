@@ -1,0 +1,11 @@
+{
+  "item.create_expansion.watering_can": "Copper Watering Can",
+  "item.create_expansion.empty_spool": "Empty Spool",
+  "block.create_expansion.mechanical_table": "Mechanical Table",
+  "block.create_expansion.nest_block": "Nest Block",
+  "block.create_expansion.nest_block_slab": "Nest Block Slab",
+  "block.create_expansion.propeller": "Propeller",
+  "block.create_expansion.altimeter": "Altimeter",
+  "block.create_expansion.propellor_motor": "Propellor Motor",
+  "block.create_expansion.impulser": "Impulser"
+}

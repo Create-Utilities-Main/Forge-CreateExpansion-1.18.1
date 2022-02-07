@@ -1,0 +1,20 @@
+
+{
+  "variants": {
+    "facing=north": {
+      "model": "create_expansion:block/altimeter"
+    },
+    "facing=east": {
+      "model": "create_expansion:block/altimeter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "create_expansion:block/altimeter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_expansion:block/altimeter",
+      "y": 270
+    }
+  }
+}
