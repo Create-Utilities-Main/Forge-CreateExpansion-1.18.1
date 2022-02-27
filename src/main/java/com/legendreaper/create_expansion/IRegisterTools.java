@@ -47,15 +47,7 @@ public interface IRegisterTools extends IDefaultResourceLocation {
         RegistryObject<T> toReturn = REGISTER_SOUNDS.register(name, soundSupplier);
         return toReturn;
     }
-   /* static <T extends Item>RegistryObject<T> registerEntity(EntityType.EntityFactory<T> entityType, String name, Supplier<T> item, CreativeModeTab tab, MobCategory mobCategory, String id) {
 
-        RegistryObject<T> toReturn = REGISTER_ENTITES.register(name, () -> EntityType.Builder.of(entityType, mobCategory).sized(.5f, .5f).setShouldReceiveVelocityUpdates(false)
-                .build(id));
-
-
-
-        return toReturn;
-    }*/
 
    static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab) {
         ModItems.REGISTER_ITEMS.register(name, () -> new BlockItem(block.get(),

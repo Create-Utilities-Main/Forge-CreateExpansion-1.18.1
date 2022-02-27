@@ -56,7 +56,7 @@ public class WateringCanItem extends Item  {
         } else {
             BlockState blockstate = level.getBlockState(blockpos);
             boolean flag = blockstate.isFaceSturdy(level, blockpos, pContext.getClickedFace());
-            if (flag && growWaterPlant(pContext.getItemInHand(), level, blockpos1, pContext.getClickedFace())) {
+            if (flag) {
                 if (!level.isClientSide) {
                     level.levelEvent(1505, blockpos1, 0);
                 }
@@ -98,7 +98,7 @@ public class WateringCanItem extends Item  {
         return false;
     }
 
-    public static boolean growWaterPlant(ItemStack pStack, Level pLevel, BlockPos pPos, @Nullable Direction pClickedSide) {
+    /*public static boolean growWaterPlant(ItemStack pStack, Level pLevel, BlockPos pPos, @Nullable Direction pClickedSide) {
         if (pLevel.getBlockState(pPos).is(Blocks.WATER) && pLevel.getFluidState(pPos).getAmount() == 8) {
             if (!(pLevel instanceof ServerLevel)) {
                 return true;
@@ -148,7 +148,7 @@ public class WateringCanItem extends Item  {
             return false;
         }
     }
-
+*/
 
 
     @Override
