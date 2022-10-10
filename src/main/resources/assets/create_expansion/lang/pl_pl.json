@@ -1,0 +1,11 @@
+{
+ "item.create_expansion.watering_can": "Miedziana konewka",
+ "item.create_expansion.empty_spool": "Pusta szpula",
+ "block.create_expansion.mechanical_table": "Mechaniczny stół",
+ "block.create_expansion.nest_block": "Block gniazdowy",
+ "block.create_expansion.nest_block_slab": "Płyta bloku gniazdowego",
+ "block.create_expansion.propeller": "Wiatrak",
+ "block.create_expansion.altimeter": "Wysokościomierz",
+ "block.create_expansion.propellor_motor": "Silnik wiatraka",
+ "block.create_expansion.impulser": "Pulsator"
+}
